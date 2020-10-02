@@ -27,6 +27,11 @@ span.req {
 </head>
 <body>
   <div class="container">
+	  <div class="row">
+	  	<div class="col-sm-12">
+	  		<h4>Registration Form</h4>
+	  	</div>
+	  </div>
 	<div class="row">
         <div class="col-md-6">
             <form action="" method="post" id="fileForm" role="form">
