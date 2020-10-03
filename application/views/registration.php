@@ -1,6 +1,6 @@
 <html>
 <head>
-  <title>User Registration</title>
+  <title>User Registration -1</title>
 	
 	body {
 	    padding-top:50px;
