@@ -104,9 +104,8 @@
         </div><!-- ends col-6 -->
    
             <div class="col-md-6">
-                <h1 class="page-header">TSW =|= </h1>
+                <h1 class="page-header">TSW</h1>
                 <p>Form can be used with TSW Login-Register applet available on Github<br><a href="https://github.com/tradesouthwest/tsw-login-register" title="github" target="_blank">https://github.com/tradesouthwest/tsw-login-register</a></a></p>
-                
             </div>
 
 	</div>
