@@ -32,7 +32,7 @@
   <div class="container">
 	  <div class="row">
 	  	<div class="col-sm-12">
-	  		<h4>Registration Form</h4>
+	  		<h4>Registration Form-1</h4>
 	  	</div>
 	  </div>
 	<div class="row">
