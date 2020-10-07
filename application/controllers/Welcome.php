@@ -25,6 +25,6 @@ class Welcome extends CI_Controller {
 	
 	public function registrationForm()
 	{
-		$this->load->view('');
+		$this->load->view('registrati');
 	}
 }
