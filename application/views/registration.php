@@ -30,12 +30,12 @@
 </head>
 <body>
   <div class="container">
-	  <div class="row">
-	  	<div class="col-sm-12">
-	  		<h4>Registration Form</h4>
-	  	</div>
-	  </div>
-	<div class="row">
+    <div class="row">
+          <div class="col-sm-12">
+                  <h4>School Registration Form</h4>
+          </div>
+    </div>
+    <div class="row">
         <div class="col-md-6">
             <form action="" method="post" id="fileForm" role="form">
             <fieldset><legend class="text-center">Valid information is required to register. <span class="req"><small> required *</small></span></legend>
@@ -79,7 +79,7 @@
             </div>
 
             <div class="form-group">
-            
+
                 <?php //$date_entered = date('m/d/Y H:i:s'); ?>
                 <input type="hidden" value="<?php //echo $date_entered; ?>" name="dateregistered">
                 <input type="hidden" value="0" name="activate" />
@@ -93,7 +93,7 @@
             </div>
                       <h5>You will receive an email to complete the registration and validation process. </h5>
                       <h5>Be sure to check your spam folders. </h5>
- 
+
 
             </fieldset>
             </form><!-- ends register form -->
