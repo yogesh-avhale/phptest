@@ -25,6 +25,14 @@ class Welcome extends CI_Controller {
 	
 	public function registrationForm()
 	{
-		$this->load->view('registrati');
+		$this->load->view('registration');
+	}
+	
+	public function addRegistration()
+	{
+		$phonenumber = $thi->input->post("phonenumber");
+		$firstname = $thi->input->post("firstname");
+		$lastname = $thi->input->post("lastname");
+		$data = array('phoneno'=>$phonenumber, 'firstname'=>$firstname, 'lastname'=>$lastname);
 	}
 }
