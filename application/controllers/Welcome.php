@@ -30,10 +30,10 @@ class Welcome extends CI_Controller {
 	
 	public function addRegistration()
 	{
-		$phonenumber = $thi->input->post("phonenumber");
-		$firstname = $thi->input->post("firstname");
-		$lastname = $thi->input->post("lastname");
-		$data = array('phoneno'=>$phonenumber, 'firstname'=>$firstname, 'lastname'=>$lastname);
+            $phonenumber = $thi->input->post("phonenumber");
+            $firstname = $thi->input->post("firstname");
+            $lastname = $thi->input->post("lastname");
+            $data = array('phoneno'=>$phonenumber, 'firstname'=>$firstname, 'lastname'=>$lastname);
             $base_query = $this->db->insert('tbl_registration',$data);
                 
         }
