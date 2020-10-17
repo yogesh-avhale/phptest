@@ -1,4 +1,4 @@
-<html>
+<!--<html>
 <head>
   <title>User Registration Form</title>
     <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css"> 
@@ -11,6 +11,6 @@
             </div>
         </div>
     </div>
-</body>
+</body>-->
 
    
