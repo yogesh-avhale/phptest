@@ -34,5 +34,7 @@ class Welcome extends CI_Controller {
 		$firstname = $thi->input->post("firstname");
 		$lastname = $thi->input->post("lastname");
 		$data = array('phoneno'=>$phonenumber, 'firstname'=>$firstname, 'lastname'=>$lastname);
-	}
+            $base_query = $this->db->insert('tbl_registration',$data);
+                
+        }
 }
